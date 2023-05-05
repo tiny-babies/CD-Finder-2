@@ -4,7 +4,7 @@
 // https://www.drupal.org/docs/8/api/configuration-api/working-with-configuration-forms
 //
 
-namespace Drupal\finder\Form;
+namespace Drupal\finder2\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;

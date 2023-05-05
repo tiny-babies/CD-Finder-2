@@ -1,38 +1,38 @@
-finder.content:
-  path: '/finder-2'
+finder2.content:
+  path: '/finder2'
   defaults:
     _controller: '\Drupal\finder\Controller\FinderController::content'
-    _title: 'Finder 2'
+    _title: 'Finder2'
   requirements:
     _permission: 'access content'
-finder.facettree:
+finder2.facettree:
   path: '/rest/facettree'
   defaults:
     _controller: '\Drupal\finder\Controller\FinderController::facettree'
   requirements:
     _permission: 'access content'
-finder.servicelist:
+finder2.servicelist:
   path: '/rest/servicelist'
   defaults:
     _controller: '\Drupal\finder\Controller\FinderController::servicelist'
   requirements:
     _permission: 'access content'
-finder.sendemail:
+finder2.sendemail:
   path: '/rest/sendemail'
   methods: [POST]
   defaults:
     _controller: '\Drupal\finder\Controller\FinderController::send_email'
   requirements:
     _permission: 'access content'
-finder.configuration:
+finder2.configuration:
   path: '/rest/finder_settings'
   defaults:
     _controller: '\Drupal\finder\Controller\FinderController::configuration'
   requirements:
     _permission: 'access content'
-finder.settings:
+finder2.settings:
 #  path: '/admin/structure/finder/settings'
-  path: '/admin/config/content/finder-2'
+  path: '/admin/config/content/finder2'
   defaults:
     _form: '\Drupal\finder\Form\finderSettingsForm'
     _title: 'Finder Configuration'

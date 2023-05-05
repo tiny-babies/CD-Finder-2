@@ -1,4 +1,4 @@
-name: Finder-2
+name: Finder2
 description: Creates a page showing the Resource Finder.
 package: Custom
 
@@ -8,5 +8,5 @@ dependencies:
   - paragraphs:paragraphs
 libraries:
   - finder/finder
-configure: finder.settings
+configure: finder2.settings
 

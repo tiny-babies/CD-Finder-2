@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\finder\Controller;
+namespace Drupal\finder2\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use \Drupal;
